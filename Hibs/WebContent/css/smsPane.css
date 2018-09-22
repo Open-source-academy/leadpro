@@ -1,0 +1,14 @@
+#smsPanel { width: 350px;
+    			 height: 200px;
+    			  padding: 0.5em;
+    			  background:#819FF7;
+    			  display:none;
+    		 }
+ #closeP
+			{
+			float: right;
+			}
+#sms
+			{
+			float: right;
+			}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logme</servlet-name>
+    <servlet-class>service.login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>register</servlet-name>
+    <servlet-class>service.registration</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>reset</servlet-name>
+    <servlet-class>service.ResetPassWord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>admission</servlet-name>
+    <servlet-class>service.AdmissionService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>enquirey</servlet-name>
+    <servlet-class>service.EnquireyService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDBParam</servlet-name>
+    <servlet-class>dao.UserDBParam</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EnquireyEdit</servlet-name>
+    <servlet-class>service.EnquireyEditService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>sendMail</servlet-name>
+    <servlet-class>service.SendMailToUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>followupmail</servlet-name>
+    <servlet-class>service.SendFollowUpMail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>groupMail</servlet-name>
+    <servlet-class>service.CustomerGroupFollowMail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logme</servlet-name>
+    <url-pattern>/logme</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>reset</servlet-name>
+    <url-pattern>/reset</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>admission</servlet-name>
+    <url-pattern>/admission</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>enquirey</servlet-name>
+    <url-pattern>/enquirey</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDBParam</servlet-name>
+    <url-pattern>/servlet/UserDBParam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnquireyEdit</servlet-name>
+    <url-pattern>/EnquireyEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>sendMail</servlet-name>
+    <url-pattern>/sendMail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>followupmail</servlet-name>
+    <url-pattern>/followupmail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>groupMail</servlet-name>
+    <url-pattern>/groupMail</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>resetProductPass</display-name>
+    <servlet-name>resetProductPass</servlet-name>
+    <servlet-class>service.ResetProductPass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>resetProductPass</servlet-name>
+    <url-pattern>/resetProductPass</url-pattern>
+  </servlet-mapping>
+</web-app>

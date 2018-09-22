@@ -1,0 +1,26 @@
+ #draggable { width: 550px;
+    			 height: 300px;
+    			  padding: 0.5em;
+    			  display:none;
+    			  background:#819FF7;
+    		 }
+    		 #tempan { width: 350px;
+    			 height: 200px;
+    			  padding: 0.5em;
+    			  display:none;
+    			  background:A9BCF5;
+    		 }
+    		 #cls
+			{
+			float: right;
+			}
+
+		#tempcls
+			{
+			float: right;
+			}  
+			
+			#mail
+			{
+			float: right;
+			}    

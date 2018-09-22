@@ -1,0 +1,6 @@
+Create database javadatabase;
+
+create table Hibs_UserDetails(uid integer not null auto_increment,insname varchar(90),Address1 varchar(90),address2 varchar(90),landmark varchar(50),profile varchar(30),city varchar(30),pincode varchar(15),location varchar(30),web varchar(30),phone varchar(15), mobile varchar(15),fax varchar(15),email varchar(30),password varchar(30),insdatabase varchar(60),startdate date,primary key(uid));
+
+DB Username : hibs_root
+DB Passwprd : [=WrZai^B_#[
